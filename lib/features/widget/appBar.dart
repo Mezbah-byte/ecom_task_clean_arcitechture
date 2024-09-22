@@ -27,7 +27,7 @@ PreferredSizeWidget commonAppbar(
       padding: const EdgeInsets.only(left: 18, top: 8, bottom: 8),
       child: InkWell(
         onTap: () {
-          onBackButtonPressed ?? Get.back();
+          Navigator.pop(context);
         },
         child: SizedBox(
           height: 40,

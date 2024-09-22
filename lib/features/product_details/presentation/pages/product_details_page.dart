@@ -268,9 +268,9 @@ class _ProductDetailsPageState extends State<ProductDetailsPage> {
                               ),
                             ),
 
-                            const SizedBox(height: 8),
-                            Text(product.description,
-                                style: const TextStyle(fontSize: 16)),
+                            // const SizedBox(height: 8),
+                            // Text(product.description,
+                            //     style: const TextStyle(fontSize: 16)),
                             // Add more fields as needed
                           ],
                         ),
