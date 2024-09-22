@@ -29,7 +29,7 @@ PreferredSizeWidget commonAppbar(
         onTap: () {
           Navigator.pop(context);
         },
-        child: SizedBox(
+        child: const SizedBox(
           height: 40,
           width: 40,
           child: Center(
